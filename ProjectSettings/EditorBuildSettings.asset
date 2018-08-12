@@ -5,9 +5,12 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Scenes/Develop/SpaceshipMesh.unity
-    guid: b986da26e43ba9d4797d367e588cce2e
   - enabled: 1
-    path: Assets/Scenes/Develop/Multiverse.unity
-    guid: ce74ad053e712af489cf502816dd69be
+    path: Assets/Scenes/Intro.unity
+    guid: 720a6f2fe0f683340977aaa5ea57e71f
+  - enabled: 1
+    path: Assets/Scenes/Main.unity
+    guid: 8afe3f2179c408f4092a250ad42dec40
+  - enabled: 1
+    path: Assets/Scenes/End.unity
+    guid: 57322136254420344afd854ccedcc540

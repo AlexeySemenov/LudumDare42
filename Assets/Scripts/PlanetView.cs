@@ -10,6 +10,7 @@ namespace Antisystems.BigCrunch
         public float Radius = 10;
         public Color Color = Color.white;
         public ParticleSystem DestructionParticles;
+        public AudioSource Explosion;
 
         private Transform m_transform;
         private Material m_material;
@@ -28,6 +29,7 @@ namespace Antisystems.BigCrunch
         {
             GetComponent<MeshRenderer>().enabled = false;
             DestructionParticles.Play();
+            Explosion.Play();
             yield return new WaitForSeconds(10.0f);
             Destroy(gameObject);
         }

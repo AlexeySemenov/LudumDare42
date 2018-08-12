@@ -64,11 +64,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_DisplayName: Pixels
   m_Id: 84d487ec-96ca-46c1-941a-9bb2a354121a
-  m_OutputSize: 720
+  m_OutputSize: 0
   m_AspectRatio: 0
   m_ForceEvenSize: 0
   source: 1
   m_CameraTag: 
   m_FlipFinalOutput: 1
   m_AllowTransparency: 0
-  m_CaptureUI: 0
+  m_CaptureUI: 1
