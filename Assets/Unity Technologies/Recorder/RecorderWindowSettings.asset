@@ -11,8 +11,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0205cb8957891b44b142689caa23987, type: 3}
   m_Name: RecorderWindowSettings
   m_EditorClassIdentifier: 
-  m_Settings: {fileID: 114078956489833404}
---- !u!114 &114078956489833404
+  m_Settings: {fileID: 114722700993841244}
+--- !u!114 &114722700993841244
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -20,7 +20,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e435bf89a8bb0bf4abee94a2cc516927, type: 3}
+  m_Script: {fileID: 11500000, guid: 06397f605c749fe4dbe2df4bbd1ef4a1, type: 3}
   m_Name: Recorder Settings
   m_EditorClassIdentifier: 
   m_AssetID: 8ce37f547161bd24b9bb48dae72080bf
@@ -28,30 +28,25 @@ MonoBehaviour:
   m_FrameRateMode: 1
   m_FrameRate: 30
   m_FrameRateExact: 1
-  m_StartFrame: 0
-  m_EndFrame: 10
+  m_StartFrame: 130
+  m_EndFrame: 130
   m_StartTime: 0
   m_EndTime: 1
-  m_DurationMode: 0
+  m_DurationMode: 1
   m_SynchFrameRate: 1
   m_BaseFileName:
-    m_Pattern: ver3.<ext>
+    m_Pattern: image_<0000>.<ext>
   m_DestinationPath:
     m_root: 1
-    m_leaf: /Recordings
+    m_leaf: Recordings
   m_InputsSettings:
     m_InputsSettingsAssets:
-    - {fileID: 114173006648066934}
+    - {fileID: 114881973733681968}
     ownerRecorderSettingsAssetId: 8ce37f547161bd24b9bb48dae72080bf
-  m_RecorderTypeName: UTJ.FrameCapturer.Recorders.GIFRecorder, Assembly-CSharp, Version=0.0.0.0,
+  m_RecorderTypeName: UnityEngine.Recorder.ImageRecorder, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
-  m_GifEncoderSettings:
-    width: 0
-    height: 0
-    numColors: 256
-    keyframeInterval: 30
-    maxTasks: 8
---- !u!114 &114173006648066934
+  m_OutputFormat: 1
+--- !u!114 &114881973733681968
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -60,15 +55,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8d935bf7a4fcf66488738bda5536c1cb, type: 3}
-  m_Name: 40083a95-213b-4c75-b9f3-0e4a6bfaa23b
+  m_Name: 78f2a22b-cd31-4d66-8182-7ffe08d3cabf
   m_EditorClassIdentifier: 
   m_DisplayName: Pixels
-  m_Id: 84d487ec-96ca-46c1-941a-9bb2a354121a
-  m_OutputSize: 0
+  m_Id: e388f578-bd23-4095-932c-f1971f9def52
+  m_OutputSize: 480
   m_AspectRatio: 0
   m_ForceEvenSize: 0
   source: 1
   m_CameraTag: 
-  m_FlipFinalOutput: 1
+  m_FlipFinalOutput: 0
   m_AllowTransparency: 0
   m_CaptureUI: 1
